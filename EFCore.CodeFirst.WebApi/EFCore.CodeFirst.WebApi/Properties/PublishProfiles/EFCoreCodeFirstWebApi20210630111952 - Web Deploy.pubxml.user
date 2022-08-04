@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsXpRUIlueUO2sb5zsHEjfQAAAAACAAAAAAAQZgAAAAEAACAAAAClcF0wMoKBUNlZYXpCRHCuft2pEmd7dcZZIHxHSTbY7gAAAAAOgAAAAAIAACAAAADQH1yyHTi4iNZzZqeVq9/+rJVCI4CpRR74wR/tNz8E+oAAAABcnvEU9zxAEQ3Cr/bj8ehZVnOw80yeJAlTixK0grq2CGAMglmOfxbwWmc03pU7uc3d5uKVbuvGii1lflXrVn9t08JdkFvS3WZO6zTcG0nulbyzCb22iQESu2Yy9LF923h41L6tRVSDJzKNY3ZARJv3lNAyZccffJpG7Ek7tWFd00AAAAC0tR1V1f83UE4xLt2K/Fqa+f8u7ipMNAeIlo5gylHde6GQt5KYkhDusQP+sqwv0n+onGmPT/jB48tQ3/UF0jTu</EncryptedPassword>
+    <History>True|2022-01-03T18:29:33.6573510Z;True|2021-12-03T14:00:55.2018208+07:00;True|2021-12-03T12:46:04.1963409+07:00;True|2021-12-03T12:33:53.0146723+07:00;True|2021-10-15T15:44:39.3313655+07:00;True|2021-10-14T18:06:37.9300035+07:00;True|2021-10-12T23:34:35.0624345+07:00;True|2021-08-07T06:30:54.8997086+07:00;True|2021-07-26T02:49:51.4044765+07:00;False|2021-07-26T02:22:56.4158450+07:00;False|2021-07-26T02:10:43.8952903+07:00;True|2021-07-01T04:13:16.7649438+07:00;True|2021-07-01T01:21:46.7102579+07:00;True|2021-07-01T01:12:59.5540691+07:00;True|2021-07-01T00:57:23.6924951+07:00;True|2021-07-01T00:45:54.3276405+07:00;True|2021-07-01T00:40:08.1890855+07:00;True|2021-07-01T00:37:11.9268343+07:00;True|2021-07-01T00:36:30.8665756+07:00;True|2021-07-01T00:05:58.8744875+07:00;True|2021-06-30T23:38:50.7685441+07:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:efcorecodefirstwebapidbserver.database.windows.net,1433%3bInitial Catalog=EFCore.CodeFirst.WebApi_db%3bUser Id=anhpolu%3bPassword=Invisible_0165790v2</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="EFCore.CodeFirst.WebApi.Contexts.ApplicationDbContext">
+      <Value>Data Source=tcp:efcorecodefirstwebapidbserver.database.windows.net,1433%3bInitial Catalog=EFCore.CodeFirst.WebApi_db%3bUser Id=anhpolu%3bPassword=Invisible_0165790v2</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

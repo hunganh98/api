@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\NetCoreSampleProj\EFCore.CodeFirst.WebApi\EFCore.CodeFirst.WebApi\obj\Release\netcoreapp3.1\PubTmp\Out\" />
+  <dbfullsql path="C:\NetCoreSampleProj\EFCore.CodeFirst.WebApi\EFCore.CodeFirst.WebApi\obj\Release\netcoreapp3.1\PubTmp\EFSQLScripts\EFCore.CodeFirst.WebApi.Contexts.ApplicationDbContext.sql" />
+</sitemanifest>

@@ -1,0 +1,14 @@
+﻿using EFCore.CodeFirst.WebApi.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace EFCore.CodeFirst.WebApi.Repository.Interfaces
+{
+    public interface IQuestionRepository : IRepositoryBase<Question>
+    {
+        List<Blog> GetAll();
+        List<Question> GetQuestionsByBlogId(int blogId);
+    }
+}
